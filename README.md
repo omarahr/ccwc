@@ -62,3 +62,9 @@ wc [flags] [file...]
 ## License
 
 This project is licensed under the MIT License.
+
+---
+
+## Acknowledgments
+
+- Inspired the solution from [Coding Challenges by John Crickett](https://codingchallenges.fyi/challenges/challenge-wc)
