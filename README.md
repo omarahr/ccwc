@@ -18,8 +18,8 @@
 
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/omarahr/ccwc.git
+   cd ccwc
    ```
 2. Build the binary:
    ```bash
@@ -46,17 +46,17 @@ wc [flags] [file...]
 
 1. Count lines, words, and bytes in a file:
    ```bash
-   wc -l -w -c example.txt
+   ./ccwc -l -w -c example.txt
    ```
 
 2. Use standard input:
    ```bash
-   echo "Hello world" | wc -w
+   echo "Hello world" | ./ccwc -w
    ```
 
 3. Compare counting methods for a file:
    ```bash
-   wc -s example.txt
+   ./ccwc -s example.txt
    ```
 
 ## License
